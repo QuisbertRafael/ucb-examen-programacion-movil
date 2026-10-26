@@ -17,6 +17,7 @@ dependencies {
 
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.koin.android)
 
     // Notificaciones push (FirebaseMessagingService vive en androidApp)
     implementation(libs.firebase.messaging)

@@ -8,6 +8,7 @@ import edu.ucb.pablostify.notes.data.datasource.FirebaseNotesDataSource
 import edu.ucb.pablostify.notes.data.datasource.NotesRemoteDataSource
 import edu.ucb.pablostify.remoteconfig.data.datasource.FirebaseRemoteConfigDataSource
 import edu.ucb.pablostify.remoteconfig.data.datasource.RemoteConfigDataSource
+import edu.ucb.pablostify.scheduler.LogScheduler
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.module.Module
 import org.koin.dsl.module
@@ -17,4 +18,5 @@ actual fun platformModule(): Module = module {
     single<NotesRemoteDataSource> { FirebaseNotesDataSource(androidContext()) }
     single<RemoteConfigDataSource> { FirebaseRemoteConfigDataSource(androidContext()) }
     single<PushTokenProvider> { FirebasePushTokenProvider(androidContext()) }
+    single { LogScheduler(androidContext()) }
 }
