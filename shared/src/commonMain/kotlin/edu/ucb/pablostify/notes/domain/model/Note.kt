@@ -1,0 +1,7 @@
+package edu.ucb.pablostify.notes.domain.model
+
+data class Note(
+    val id: String,
+    val text: String,
+    val createdAt: Long
+)

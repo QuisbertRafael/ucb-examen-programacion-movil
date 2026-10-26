@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Idioma por defecto: ESPAÑOL. Para otro idioma: composeResources/values-<codigo>/strings.xml -->
+<resources>
+    <!-- Comunes -->
+    <string name="common_loading">Cargando...</string>
+    <string name="common_retry">Reintentar</string>
+    <string name="common_yes">Sí</string>
+    <string name="common_no">No</string>
+
+    <!-- Barra inferior -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_notes">Notas</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <!-- Login -->
+    <string name="login_app_name">Pablostify</string>
+    <string name="login_notice_any">Cualquier dato o texto sirve para iniciar sesión</string>
+    <string name="login_notice_early">No es necesario seguir un formato, se usó una versión temprana del proyecto grupal para hacer el examen</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_submit">Ingresar</string>
+    <string name="login_register">Crear cuenta</string>
+
+    <!-- Perfil -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_favorites">Películas favoritas: %1$d</string>
+    <string name="profile_see_movies">Ver películas</string>
+    <string name="profile_github">Consulta GitHub (Ktor)</string>
+    <string name="profile_logout">Cerrar sesión</string>
+
+    <!-- Star Wars -->
+    <string name="starwars_name">Nombre: %1$s</string>
+    <string name="starwars_height">Altura: %1$s</string>
+    <string name="starwars_mass">Peso: %1$s</string>
+    <string name="starwars_hair">Color de cabello: %1$s</string>
+    <string name="starwars_skin">Color de piel: %1$s</string>
+    <string name="starwars_eyes">Color de ojos: %1$s</string>
+    <string name="starwars_gender">Género: %1$s</string>
+
+    <!-- Notas (Realtime Database) -->
+    <string name="notes_title">Notas en tiempo real</string>
+    <string name="notes_subtitle">Se sincronizan al instante con Firebase Realtime Database</string>
+    <string name="notes_hint">Escribe una nota</string>
+    <string name="notes_add">Agregar</string>
+    <string name="notes_delete">Eliminar</string>
+    <string name="notes_empty">Aún no hay notas. ¡Agrega la primera!</string>
+    <string name="notes_disabled">Esta función está desactivada desde Remote Config.</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="theme_system">Seguir el sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="settings_language">Idioma</string>
+    <string name="language_system">Idioma del sistema</string>
+    <string name="language_es">Español</string>
+    <string name="language_en">English</string>
+    <string name="settings_remote_config">Remote Config</string>
+    <string name="settings_welcome_message">Mensaje de bienvenida: %1$s</string>
+    <string name="settings_notes_enabled">Notas habilitadas: %1$s</string>
+    <string name="settings_maintenance">Modo mantenimiento: %1$s</string>
+    <string name="settings_refresh">Actualizar valores</string>
+    <string name="settings_push">Notificaciones push</string>
+    <string name="settings_push_load">Obtener token FCM</string>
+    <string name="settings_push_token">Token FCM (mantén presionado para copiar):</string>
+
+    <!-- Mantenimiento -->
+    <string name="maintenance_title">En mantenimiento</string>
+    <string name="maintenance_body">Volveremos pronto.</string>
+</resources>

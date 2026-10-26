@@ -1,0 +1,4 @@
+<resources>
+    <!-- Tema del sistema (ventana, barras). Claro por defecto; values-night/themes.xml define el oscuro. -->
+    <style name="Theme.Pablostify" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

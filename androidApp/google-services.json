@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "760009270689",
+    "firebase_url": "https://pablostify-46b2b-default-rtdb.firebaseio.com",
+    "project_id": "pablostify-46b2b",
+    "storage_bucket": "pablostify-46b2b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760009270689:android:e5a6000891489dd34657e0",
+        "android_client_info": {
+          "package_name": "edu.ucb.pablostify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd4V72Kwavdd0vrVBcS1xkEoKAwV8Dauo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_loading">Loading...</string>
+    <string name="common_retry">Retry</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="login_app_name">Pablostify</string>
+    <string name="login_notice_any">Any data or text works to sign in</string>
+    <string name="login_notice_early">No specific format is required; an early version of the group project was used for the exam</string>
+    <string name="login_title">Sign in</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_submit">Sign in</string>
+    <string name="login_register">Create account</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="profile_favorites">Favorite movies: %1$d</string>
+    <string name="profile_see_movies">See movies</string>
+    <string name="profile_github">GitHub lookup (Ktor)</string>
+    <string name="profile_logout">Sign out</string>
+
+    <string name="starwars_name">Name: %1$s</string>
+    <string name="starwars_height">Height: %1$s</string>
+    <string name="starwars_mass">Mass: %1$s</string>
+    <string name="starwars_hair">Hair color: %1$s</string>
+    <string name="starwars_skin">Skin color: %1$s</string>
+    <string name="starwars_eyes">Eye color: %1$s</string>
+    <string name="starwars_gender">Gender: %1$s</string>
+
+    <string name="notes_title">Realtime notes</string>
+    <string name="notes_subtitle">They sync instantly with Firebase Realtime Database</string>
+    <string name="notes_hint">Write a note</string>
+    <string name="notes_add">Add</string>
+    <string name="notes_delete">Delete</string>
+    <string name="notes_empty">No notes yet. Add the first one!</string>
+    <string name="notes_disabled">This feature is turned off from Remote Config.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="language_system">System language</string>
+    <string name="language_es">Español</string>
+    <string name="language_en">English</string>
+    <string name="settings_remote_config">Remote Config</string>
+    <string name="settings_welcome_message">Welcome message: %1$s</string>
+    <string name="settings_notes_enabled">Notes enabled: %1$s</string>
+    <string name="settings_maintenance">Maintenance mode: %1$s</string>
+    <string name="settings_refresh">Refresh values</string>
+    <string name="settings_push">Push notifications</string>
+    <string name="settings_push_load">Get FCM token</string>
+    <string name="settings_push_token">FCM token (long-press to copy):</string>
+
+    <string name="maintenance_title">Under maintenance</string>
+    <string name="maintenance_body">We will be back soon.</string>
+</resources>
