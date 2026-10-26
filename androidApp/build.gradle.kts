@@ -20,7 +20,7 @@ dependencies {
 
     // Notificaciones push (FirebaseMessagingService vive en androidApp)
     implementation(libs.firebase.messaging)
-
+    implementation(libs.androidx.work.runtime.ktx)
     // gRPC y Protobuf
     implementation(libs.grpc.protobuf.lite)
     implementation(libs.protobuf.kotlin.lite)
