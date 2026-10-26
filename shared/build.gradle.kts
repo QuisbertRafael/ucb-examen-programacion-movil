@@ -53,8 +53,9 @@ kotlin {
             implementation(libs.ktor.client.okhttp)
             implementation(libs.androidx.work.runtime.ktx)
 
-            // Firebase (Realtime Database, Remote Config, Cloud Messaging) - solo Android
+            // Firebase (Realtime Database, Firestore, Remote Config, Cloud Messaging) - solo Android
             implementation(libs.firebase.database)
+            implementation(libs.firebase.firestore)
             implementation(libs.firebase.config)
             implementation(libs.firebase.messaging)
         }

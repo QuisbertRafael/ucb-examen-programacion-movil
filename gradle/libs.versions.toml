@@ -21,6 +21,7 @@ ktor = "3.4.1"
 ksp = "2.3.6"
 coil = "3.3.0"
 firebaseDatabase = "23.0.0"
+firebaseFirestore = "25.1.1"
 firebaseConfig = "24.0.1"
 firebaseMessaging = "26.0.1"
 googleServices = "4.5.0"
@@ -71,6 +72,7 @@ coil-network-ktor = { module = "io.coil-kt.coil3:coil-network-ktor3", version.re
 
 # Firebase (solo Android; el BoM 35.1.0 mapea exactamente estas versiones)
 firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabase" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-config = { module = "com.google.firebase:firebase-config", version.ref = "firebaseConfig" }
 firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
 
