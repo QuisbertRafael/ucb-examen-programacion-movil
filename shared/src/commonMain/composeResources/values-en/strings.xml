@@ -61,4 +61,12 @@
 
     <string name="maintenance_title">Under maintenance</string>
     <string name="maintenance_body">We will be back soon.</string>
+
+    <!-- Logs Test -->
+    <string name="logs_title">gRPC Logs Test</string>
+    <string name="logs_subtitle">End-to-end log uploader test to gRPC server</string>
+    <string name="logs_send_button">Send test log</string>
+    <string name="logs_result_code">Result: %1$s</string>
+    <string name="logs_success_title">Log sent successfully</string>
+    <string name="logs_error_title">Failed to send log</string>
 </resources>

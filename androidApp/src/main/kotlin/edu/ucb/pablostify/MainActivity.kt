@@ -10,6 +10,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.NavHostController
+import edu.ucb.pablostify.logs.presentation.screen.LogsScreen
 
 class MainActivity : ComponentActivity() {
 
@@ -22,7 +24,11 @@ class MainActivity : ComponentActivity() {
         requestNotificationPermissionIfNeeded()
 
         setContent {
-            App()
+            App(
+                homeContent = { navController ->
+                    LogsScreen(navController)
+                }
+            )
         }
     }
 
@@ -39,5 +45,9 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 fun AppAndroidPreview() {
-    App()
+    App(
+        homeContent = { navController ->
+            LogsScreen(navController)
+        }
+    )
 }

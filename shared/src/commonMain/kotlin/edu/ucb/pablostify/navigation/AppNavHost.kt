@@ -52,7 +52,8 @@ private enum class BottomTab { HOME, NOTES, PROFILE, SETTINGS }
 @Composable
 fun AppNavHost(
     navController: NavHostController,
-    shellViewModel: ShellViewModel = koinViewModel()
+    shellViewModel: ShellViewModel = koinViewModel(),
+    homeContent: @Composable (NavHostController) -> Unit = { StarWarsScreen(it) }
 ) {
     val shell by shellViewModel.state.collectAsState()
     val config = shell.config
@@ -94,7 +95,7 @@ fun AppNavHost(
                 //Creacion de la ruta de la pantalla de starwars en el .kt de AppNavHost
                 //Se pueden apreciar demás rutas por el hecho de ser un proyecto reciclado
                 // EXAMEN: la pantalla nueva reemplaza a StarWarsScreen en esta ruta (MainList = pestana "Inicio").
-                composable<NavRoute.MainList> { StarWarsScreen(navController) }
+                composable<NavRoute.MainList> { homeContent(navController) }
 
                 composable<NavRoute.Notes> {
                     if (config.notesEnabled) {

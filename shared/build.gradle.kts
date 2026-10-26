@@ -97,6 +97,6 @@ dependencies {
 // Recursos de Compose (strings localizados es/en). La clase generada se llama:
 //   edu.ucb.pablostify.resources.Res   ->  stringResource(Res.string.xxx)
 compose.resources {
-    publicResClass = false
+    publicResClass = true
     packageOfResClass = "edu.ucb.pablostify.resources"
 }

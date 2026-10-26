@@ -26,7 +26,7 @@ import edu.ucb.pablostify.starwars.data.service.StarWarsService
 import edu.ucb.pablostify.starwars.domain.repository.StarWarsRepository
 
 val dataModule = module {
-    single<LoginRepository> { LoginRepositoryImpl() }
+    single<LoginRepository> { LoginRepositoryImpl(getOrNull()) }
     single<RegisterRepository> { RegisterRepositoryImpl() }
     single<MovieDetailRepository> { MovieDetailRepositoryImpl() }
     single<ProfileRepository> { ProfileRepositoryImpl() }
@@ -40,6 +40,6 @@ val dataModule = module {
     // Firebase / usabilidad (las fuentes de datos vienen de platformModule())
     single { AppSettings(get()) }
     single<RemoteConfigRepository> { RemoteConfigRepositoryImpl(get()) }
-    single<NotesRepository> { NotesRepositoryImpl(get()) }
+    single<NotesRepository> { NotesRepositoryImpl(get(), getOrNull()) }
 
 }

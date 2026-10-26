@@ -70,4 +70,12 @@
     <!-- Mantenimiento -->
     <string name="maintenance_title">En mantenimiento</string>
     <string name="maintenance_body">Volveremos pronto.</string>
+
+    <!-- Logs Test -->
+    <string name="logs_title">Prueba de Logs gRPC</string>
+    <string name="logs_subtitle">Prueba de envío de logs de extremo a extremo al servidor gRPC</string>
+    <string name="logs_send_button">Enviar log de prueba</string>
+    <string name="logs_result_code">Resultado: %1$s</string>
+    <string name="logs_success_title">Log enviado exitosamente</string>
+    <string name="logs_error_title">Error al enviar el log</string>
 </resources>
